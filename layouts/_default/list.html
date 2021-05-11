@@ -1,0 +1,11 @@
+{{ define "main" }}
+
+<h2 class="text-center">{{ .Title }}</h2>
+{{ range .Pages }}
+<p>
+	<a class="font-125" href="{{ .RelPermalink }}">Why is this a list?</a>
+	<br>
+</p>
+{{ end }}
+
+{{ end }}

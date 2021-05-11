@@ -1,0 +1,25 @@
+baseURL = "http://localhost"
+languageCode = "en-us"
+title = "dtjohnst's site"
+
+[taxonomies]
+	tag = "tags"
+	author = "authors"
+	book = "books"
+	subject = "subjects"
+
+[permalinks]
+	author = "/:filename/"
+
+[menu]
+	[[menu.main]]
+		name = "Index"
+		url = "/"
+		weight = 1
+	[[menu.main]]
+		name = "Books"
+		url = "/books/"
+		weight = 2
+
+[params]
+	dateFormat = "2 Jan 2006"
